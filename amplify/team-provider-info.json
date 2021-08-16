@@ -19,5 +19,26 @@
                 }
             }
         }
+    },
+    "nextjsdev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyghblog-nextjsdev-121856-authRole",
+            "UnauthRoleArn": "arn:aws:iam::236361277585:role/amplify-amplifyghblog-nextjsdev-121856-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::236361277585:role/amplify-amplifyghblog-nextjsdev-121856-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-amplifyghblog-nextjsdev-121856-deployment",
+            "UnauthRoleName": "amplify-amplifyghblog-nextjsdev-121856-unauthRole",
+            "StackName": "amplify-amplifyghblog-nextjsdev-121856",
+            "StackId": "arn:aws:cloudformation:us-east-1:236361277585:stack/amplify-amplifyghblog-nextjsdev-121856/a9dc0c60-fead-11eb-9fb4-1246411399d1",
+            "AmplifyAppId": "dco1rqaxfwmgq"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dco1rqaxfwmgq",
+                    "type": "manual"
+                }
+            }
+        }
     }
 }

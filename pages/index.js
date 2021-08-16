@@ -22,11 +22,11 @@ export default function Home({ blogPosts }) {
 
 export async function getStaticProps() {
   const response = await fetch(
-    'https://api.github.com/repos/mtliendo/slack-link-surfer/issues',
+    'https://api.github.com/repos/mtliendo/sample-ssr/issues',
     {
-      headers: {
-        Authorization: `token ${process.env.GH_TOKEN}`,
-      },
+      // headers: {
+      //   Authorization: `token ${process.env.GH_TOKEN}`,
+      // },
     }
   )
   const blogPosts = await response.json()
